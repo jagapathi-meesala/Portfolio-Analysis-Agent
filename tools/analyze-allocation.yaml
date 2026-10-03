@@ -1,0 +1,15 @@
+name: analyze-allocation
+description: Compare actual and caller-provided target portfolio allocations.
+input_schema:
+  type: object
+  properties:
+    holdings:
+      type: array
+      items:
+        type: object
+    target_allocations:
+      type: object
+      additionalProperties:
+        type: number
+  required: [holdings, target_allocations]
+  additionalProperties: false

@@ -1,0 +1,22 @@
+spec_version: "0.1.0"
+name: portfolio-analysis-agent
+version: 1.0.0
+description: A framework-independent agent for analyzing supplied investment portfolio data and reporting deterministic allocation, concentration, and performance metrics.
+author: Agent Passport Project
+license: MIT
+skills:
+  - portfolio-analysis
+  - risk-analysis
+  - allocation-analysis
+tools:
+  - analyze-portfolio
+  - analyze-risk
+  - analyze-allocation
+runtime:
+  max_turns: 20
+  timeout: 120
+tags:
+  - portfolio
+  - finance
+  - analytics
+  - risk

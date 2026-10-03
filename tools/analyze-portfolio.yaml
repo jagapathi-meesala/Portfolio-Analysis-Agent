@@ -1,0 +1,11 @@
+name: analyze-portfolio
+description: Calculate deterministic portfolio value and allocation metrics.
+input_schema:
+  type: object
+  properties:
+    holdings:
+      type: array
+      items:
+        type: object
+  required: [holdings]
+  additionalProperties: false

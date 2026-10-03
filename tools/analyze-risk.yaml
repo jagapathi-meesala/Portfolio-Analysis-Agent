@@ -1,0 +1,11 @@
+name: analyze-risk
+description: Analyze concentration and supplied risk indicators.
+input_schema:
+  type: object
+  properties:
+    holdings:
+      type: array
+      items:
+        type: object
+  required: [holdings]
+  additionalProperties: false
